@@ -13,6 +13,7 @@ class MyRepository @Inject constructor(
     }
 
     suspend fun getMovieDetails(movieId: String, apiKey:String): MockResponseDto.MovieDetailsResponse {
+        var resp = apiService.getMovieDetails(movieId, apiKey)
         return apiService.getMovieDetails(movieId, apiKey)
     }
 }
