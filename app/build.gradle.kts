@@ -88,6 +88,7 @@ dependencies {
     implementation (libs.androidx.hilt.navigation.compose)
     //jetpack compose utility function to observe live data in jetpack compose
     implementation (libs.androidx.runtime.livedata)
+    //image adding library for compose
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
 }
